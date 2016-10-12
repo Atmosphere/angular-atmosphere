@@ -1,7 +1,7 @@
 (function () {
-    'use strict';
-    angular.module('angular.atmosphere', [])
-        .service('atmosphereService', ['$rootScope', function ($rootScope) {
+'use strict';
+angular.module('angular.atmosphere', [])
+.service('atmosphereService', ['$rootScope', function ($rootScope) {
     var responseParameterDelegateFunctions = ['onOpen', 'onClientTimeout', 'onReopen', 'onMessage', 'onClose', 'onError'];
     var delegateFunctions = angular.copy(responseParameterDelegateFunctions);
     delegateFunctions.push('onTransportFailure');
@@ -37,5 +37,5 @@
         return atmosphere.subscribe(result);
       }
     };
-        }]);
+}]);
 })();
