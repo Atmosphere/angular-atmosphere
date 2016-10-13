@@ -1,0 +1,23 @@
+{
+  "name": "angular-atmosphere",
+  "version": "1.0.0",
+  "description": "The angular wrapper for https://github.com/Atmosphere/atmosphere javascript service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atmosphere/angular-atmosphere.git"
+  },
+  "keywords": [
+    "angular",
+    "atmosphere"
+  ],
+  "author": "jfarcand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atmosphere/angular-atmosphere/issues"
+  },
+  "homepage": "https://github.com/Atmosphere/angular-atmosphere#readme"
+}
