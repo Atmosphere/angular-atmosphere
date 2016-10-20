@@ -1,6 +1,6 @@
 {
   "name": "angular-atmosphere",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The angular wrapper for https://github.com/Atmosphere/atmosphere javascript service.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "angular",
     "atmosphere"
   ],
-  "author": "jfarcand",
+  "author": "https://github.com/Atmosphere/angular-atmosphere/graphs/contributors",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Atmosphere/angular-atmosphere/issues"
